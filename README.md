@@ -67,7 +67,6 @@ Uploaded website files to:
 ### 6. Access Website
 
 Opened:
-
 ```
 http://your-public-ip
 ```
