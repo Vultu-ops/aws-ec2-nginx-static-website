@@ -36,9 +36,9 @@ User Browser → AWS EC2 → NGINX → Static Website
 
 ```bash
 ssh -i key.pem ubuntu@your-public-ip
+```
 
 ### 3. Install NGINX
-
 ```
 sudo apt update
 sudo apt install nginx-y
