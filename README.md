@@ -36,3 +36,38 @@ User Browser → AWS EC2 → NGINX → Static Website
 
 ```bash
 ssh -i key.pem ubuntu@your-public-ip
+
+### 3. Install NGINX
+
+```
+sudo apt update
+sudo apt install nginx-y
+```
+
+### 4. Start NGINX
+
+```
+sudo systemctlstart nginx
+sudo systemctl enable nginx
+```
+
+### 5. Deploy Website Files
+
+```
+cd /var/www/html
+sudorm index.nginx-debian.html
+```
+
+Uploaded website files to:
+
+```
+/var/www/html
+```
+
+### 6. Access Website
+
+Opened:
+
+```
+http://your-public-ip
+```
